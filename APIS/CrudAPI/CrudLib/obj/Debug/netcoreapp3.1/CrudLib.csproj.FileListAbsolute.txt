@@ -1,0 +1,8 @@
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudLib\bin\Debug\netcoreapp3.1\CrudLib.deps.json
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudLib\bin\Debug\netcoreapp3.1\CrudLib.dll
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudLib\bin\Debug\netcoreapp3.1\CrudLib.pdb
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudLib\obj\Debug\netcoreapp3.1\CrudLib.csprojAssemblyReference.cache
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudLib\obj\Debug\netcoreapp3.1\CrudLib.AssemblyInfoInputs.cache
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudLib\obj\Debug\netcoreapp3.1\CrudLib.AssemblyInfo.cs
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudLib\obj\Debug\netcoreapp3.1\CrudLib.dll
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudLib\obj\Debug\netcoreapp3.1\CrudLib.pdb

@@ -1,0 +1,8 @@
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudAPI\bin\Debug\netcoreapp2.2\CrudLib.dll
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudAPI\bin\Debug\netcoreapp2.2\Repositories.dll
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudAPI\obj\Debug\netcoreapp2.2\CrudAPI.csprojAssemblyReference.cache
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudAPI\obj\Debug\netcoreapp2.2\CrudAPI.RazorAssemblyInfo.cache
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudAPI\obj\Debug\netcoreapp2.2\CrudAPI.RazorAssemblyInfo.cs
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudAPI\obj\Debug\netcoreapp2.2\CrudAPI.AssemblyInfoInputs.cache
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudAPI\obj\Debug\netcoreapp2.2\CrudAPI.AssemblyInfo.cs
+C:\Users\ahmad\Documents\GitHub\IB-1st-React-JWT\CrudAPI\CrudAPI\obj\Debug\netcoreapp2.2\CrudAPI.RazorTargetAssemblyInfo.cache

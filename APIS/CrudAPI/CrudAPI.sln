@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAPI", "CrudAPI\CrudAPI.csproj", "{92548C32-0E12-417B-A69A-E966A9A3DE38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudLib", "CrudLib\CrudLib.csproj", "{A3685F2E-C8BA-41FE-9FE6-E947E5A6DC22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{0F2EF151-D7B2-4F36-8DB6-E2DDE6A726BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92548C32-0E12-417B-A69A-E966A9A3DE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92548C32-0E12-417B-A69A-E966A9A3DE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92548C32-0E12-417B-A69A-E966A9A3DE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92548C32-0E12-417B-A69A-E966A9A3DE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3685F2E-C8BA-41FE-9FE6-E947E5A6DC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3685F2E-C8BA-41FE-9FE6-E947E5A6DC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3685F2E-C8BA-41FE-9FE6-E947E5A6DC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3685F2E-C8BA-41FE-9FE6-E947E5A6DC22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2EF151-D7B2-4F36-8DB6-E2DDE6A726BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2EF151-D7B2-4F36-8DB6-E2DDE6A726BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2EF151-D7B2-4F36-8DB6-E2DDE6A726BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2EF151-D7B2-4F36-8DB6-E2DDE6A726BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9550DA78-BC73-4D57-B6D0-6F9B6A3A59F7}
+	EndGlobalSection
+EndGlobal
