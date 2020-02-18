@@ -1,0 +1,9 @@
+C:\Users\ahmad\source\repos\Logging_With_Nlog\DataAnnotation.Logger\bin\Debug\netcoreapp3.1\DataAnnotation.Logger.deps.json
+C:\Users\ahmad\source\repos\Logging_With_Nlog\DataAnnotation.Logger\bin\Debug\netcoreapp3.1\DataAnnotation.Logger.runtimeconfig.json
+C:\Users\ahmad\source\repos\Logging_With_Nlog\DataAnnotation.Logger\bin\Debug\netcoreapp3.1\DataAnnotation.Logger.runtimeconfig.dev.json
+C:\Users\ahmad\source\repos\Logging_With_Nlog\DataAnnotation.Logger\bin\Debug\netcoreapp3.1\DataAnnotation.Logger.dll
+C:\Users\ahmad\source\repos\Logging_With_Nlog\DataAnnotation.Logger\bin\Debug\netcoreapp3.1\DataAnnotation.Logger.pdb
+C:\Users\ahmad\source\repos\Logging_With_Nlog\DataAnnotation.Logger\obj\Debug\netcoreapp3.1\DataAnnotation.Logger.AssemblyInfoInputs.cache
+C:\Users\ahmad\source\repos\Logging_With_Nlog\DataAnnotation.Logger\obj\Debug\netcoreapp3.1\DataAnnotation.Logger.AssemblyInfo.cs
+C:\Users\ahmad\source\repos\Logging_With_Nlog\DataAnnotation.Logger\obj\Debug\netcoreapp3.1\DataAnnotation.Logger.dll
+C:\Users\ahmad\source\repos\Logging_With_Nlog\DataAnnotation.Logger\obj\Debug\netcoreapp3.1\DataAnnotation.Logger.pdb

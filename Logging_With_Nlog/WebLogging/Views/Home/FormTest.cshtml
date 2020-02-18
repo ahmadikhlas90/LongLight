@@ -1,0 +1,74 @@
+﻿@model RegisterViewModel
+
+@{
+    ViewData["Title"] = "FormTest";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center">Form Validation</h2>
+<form method="post" enctype="multipart/form-data">
+    <div class="form-row justify-content-center">
+        <div class="form-group col-12">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" asp-for="Email" placeholder="Email">
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group col-12">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" asp-for="Password"placeholder="Password">
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-12">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" asp-for="Address"placeholder="1234 Main St">
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+    </div>
+    <label for="customFile">Photo</label>
+    <input asp-for="file" class="form-control" multiple>
+    <span asp-validation-for="file" class="text-danger">
+    </span>
+    <button type="submit" class="btn btn-primary  mt-3 text-center">Submit</button>
+</form>
+@*<form method="post">
+        <div class="form-row justify-content-center">
+            <div class="form-group col-12">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group col-12">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-12">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <label for="customFile">Photo</label>
+            <span asp-validation-for="file" class="text-danger"></span>
+
+            <div class="custom-file col-12">
+                <input type="file" class="custom-file-input" id="customFile" name="filename">
+                <label class="custom-file-label" for="customFile">Choose file</label>
+            </div>
+        </div>
+            <button type="submit" class="btn btn-primary  mt-3 text-center">Submit</button>
+    </form>*@
+
+
+@section Scripts{
+
+    <script type="text/javascript">
+        $(".custom-file-input").on("change", function () {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+    </script>
+}
