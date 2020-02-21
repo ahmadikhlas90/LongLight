@@ -1,0 +1,154 @@
+
+
+Stored Procedure Helping Material
+https://www.c-sharpcorner.com/article/effective-paging-sorting-and-filtering-using-sql-server-stored-procedure/
+
+CREATE PROCEDURE spPagination
+(
+	@SearchValue NVARCHAR(50) = NULL,
+	@PageNo INT = 1,
+	@PageSize INT = 10,
+	@SortColumn NVARCHAR(20) = 'Name',
+	@SortOrder NVARCHAR(20) = 'ASC'
+)
+ AS BEGIN
+ SET NOCOUNT ON;
+
+ SET @SearchValue = LTRIM(RTRIM(@SearchValue))
+
+ ; WITH CTE_Results AS 
+(
+    SELECT EmployeeId, Name, City,Gender,Department from tblEmployee 
+	WHERE (@SearchValue IS NULL OR Name LIKE '%' + @SearchValue + '%') 
+	    ORDER BY
+   	 CASE WHEN (@SortColumn = 'Name' AND @SortOrder='ASC')
+                    THEN Name
+        END ASC,
+        CASE WHEN (@SortColumn = 'Name' AND @SortOrder='DESC')
+                   THEN Name
+		END DESC,
+	 CASE WHEN (@SortColumn = 'City' AND @SortOrder='ASC')
+                    THEN City
+        END ASC,
+        CASE WHEN (@SortColumn = 'City' AND @SortOrder='DESC')
+                   THEN City
+		END DESC,
+		 CASE WHEN (@SortColumn = 'Gender' AND @SortOrder='ASC')
+                    THEN Gender
+        END ASC,
+        CASE WHEN (@SortColumn = 'Gender' AND @SortOrder='DESC')
+                   THEN Gender
+		END DESC,
+		 CASE WHEN (@SortColumn = 'Department' AND @SortOrder='ASC')
+                    THEN Department
+        END ASC,
+        CASE WHEN (@SortColumn = 'Department' AND @SortOrder='DESC')
+                   THEN Department
+		END DESC
+      OFFSET @PageSize * (@PageNo - 1) ROWS
+      FETCH NEXT @PageSize ROWS ONLY
+	),
+CTE_TotalRows AS 
+(
+ select count(EmployeeId) as MaxRows from tblEmployee WHERE (@SearchValue IS NULL OR Name LIKE '%' + @SearchValue + '%')
+)
+   Select MaxRows, t.EmployeeId, t.Name, t.City,t.Department,t.Gender from dbo.tblEmployee as t, CTE_TotalRows 
+   WHERE EXISTS (SELECT 1 FROM CTE_Results WHERE CTE_Results.EmployeeId = t.EmployeeId)
+   OPTION (RECOMPILE)
+
+	END
+GO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://ankitsharmablogs.com/crud-operation-with-asp-net-core-mvc-using-visual-studio-code-and-ado-net/
+
+
+creat table
+
+Create table tblEmployee(        
+    EmployeeId int IDENTITY(1,1) NOT NULL,        
+    Name varchar(20) NOT NULL,        
+    City varchar(20) NOT NULL,        
+    Department varchar(20) NOT NULL,        
+    Gender varchar(6) NOT NULL        
+)
+
+
+
+Insert an Employee Record
+
+Create procedure spAddEmployee         
+(        
+    @Name VARCHAR(20),         
+    @City VARCHAR(20),        
+    @Department VARCHAR(20),        
+    @Gender VARCHAR(6)        
+)        
+as         
+Begin         
+    Insert into tblEmployee (Name,City,Department, Gender)         
+    Values (@Name,@City,@Department, @Gender)         
+End
+
+
+
+Update an Employee Record
+
+
+Create procedure spUpdateEmployee          
+(          
+   @EmpId INTEGER ,        
+   @Name VARCHAR(20),         
+   @City VARCHAR(20),        
+   @Department VARCHAR(20),        
+   @Gender VARCHAR(6)        
+)          
+as          
+begin          
+   Update tblEmployee           
+   set Name=@Name,          
+   City=@City,          
+   Department=@Department,        
+   Gender=@Gender          
+   where EmployeeId=@EmpId          
+End
+
+
+
+
+Delete an Employee Record
+
+Create procedure spDeleteEmployee         
+(          
+   @EmpId int          
+)          
+as           
+begin          
+   Delete from tblEmployee where EmployeeId=@EmpId          
+End
+
+
+
+
+View all Employees Record
+Create procedure spGetAllEmployees      
+as      
+Begin      
+    select *      
+    from tblEmployee   
+    order by EmployeeId 
+End
