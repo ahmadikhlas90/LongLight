@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmad\\Documents\\GitHub\\IB-1st-React-JWT\\CrudAPI\\CrudLib\\CrudLib.csproj": {}
+    "C:\\Users\\ahmad\\Documents\\LongLight\\APIS\\CrudAPI\\CrudLib\\CrudLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmad\\Documents\\GitHub\\IB-1st-React-JWT\\CrudAPI\\CrudLib\\CrudLib.csproj": {
+    "C:\\Users\\ahmad\\Documents\\LongLight\\APIS\\CrudAPI\\CrudLib\\CrudLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmad\\Documents\\GitHub\\IB-1st-React-JWT\\CrudAPI\\CrudLib\\CrudLib.csproj",
+        "projectUniqueName": "C:\\Users\\ahmad\\Documents\\LongLight\\APIS\\CrudAPI\\CrudLib\\CrudLib.csproj",
         "projectName": "CrudLib",
-        "projectPath": "C:\\Users\\ahmad\\Documents\\GitHub\\IB-1st-React-JWT\\CrudAPI\\CrudLib\\CrudLib.csproj",
+        "projectPath": "C:\\Users\\ahmad\\Documents\\LongLight\\APIS\\CrudAPI\\CrudLib\\CrudLib.csproj",
         "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmad\\Documents\\GitHub\\IB-1st-React-JWT\\CrudAPI\\CrudLib\\obj\\",
+        "outputPath": "C:\\Users\\ahmad\\Documents\\LongLight\\APIS\\CrudAPI\\CrudLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -64,10 +64,6 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
-            },
-            "Microsoft.Web.Services3": {
-              "target": "Package",
-              "version": "[3.0.0, )"
             },
             "NLog": {
               "target": "Package",

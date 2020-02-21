@@ -57,7 +57,6 @@ namespace CrudAPI.Controllers
         {
             try
             {
-                _logger.LogInformation("HomeController.Index method called!!!");
                 List<ProductModel> models = repo.GetProducts().ToModelList();
                 return Ok(models);
             }

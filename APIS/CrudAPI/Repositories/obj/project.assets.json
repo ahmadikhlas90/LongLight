@@ -559,15 +559,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Web.Services3/3.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net20/Microsoft.Web.Services3.dll": {}
-        },
-        "runtime": {
-          "lib/net20/Microsoft.Web.Services3.dll": {}
-        }
-      },
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -1124,7 +1115,6 @@
           "Microsoft.AspNetCore.StaticFiles": "2.2.0",
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
-          "Microsoft.Web.Services3": "3.0.0",
           "NLog": "4.6.8"
         },
         "compile": {
@@ -1926,18 +1916,6 @@
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "Microsoft.Web.Services3/3.0.0": {
-      "sha512": "f7TxDOPxdtxqgKma7PTUlpjeBVur9HFFvBR9UEhMU6qQiOOCG2RezmSdiMKuUlCpFB95AXoWB074ZpgCNbUupg==",
-      "type": "package",
-      "path": "microsoft.web.services3/3.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net20/Microsoft.Web.Services3.dll",
-        "microsoft.web.services3.3.0.0.nupkg.sha512",
-        "microsoft.web.services3.nuspec"
       ]
     },
     "Microsoft.Win32.Registry/4.5.0": {
@@ -4045,11 +4023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmad\\Documents\\GitHub\\IB-1st-React-JWT\\CrudAPI\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\ahmad\\Documents\\LongLight\\APIS\\CrudAPI\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "C:\\Users\\ahmad\\Documents\\GitHub\\IB-1st-React-JWT\\CrudAPI\\Repositories\\Repositories.csproj",
+      "projectPath": "C:\\Users\\ahmad\\Documents\\LongLight\\APIS\\CrudAPI\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmad\\Documents\\GitHub\\IB-1st-React-JWT\\CrudAPI\\Repositories\\obj\\",
+      "outputPath": "C:\\Users\\ahmad\\Documents\\LongLight\\APIS\\CrudAPI\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4068,8 +4046,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\ahmad\\Documents\\GitHub\\IB-1st-React-JWT\\CrudAPI\\CrudLib\\CrudLib.csproj": {
-              "projectPath": "C:\\Users\\ahmad\\Documents\\GitHub\\IB-1st-React-JWT\\CrudAPI\\CrudLib\\CrudLib.csproj"
+            "C:\\Users\\ahmad\\Documents\\LongLight\\APIS\\CrudAPI\\CrudLib\\CrudLib.csproj": {
+              "projectPath": "C:\\Users\\ahmad\\Documents\\LongLight\\APIS\\CrudAPI\\CrudLib\\CrudLib.csproj"
             }
           }
         }
@@ -4117,17 +4095,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Web.Services3 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Web.Services3",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.2"
-      ]
-    }
-  ]
+  }
 }

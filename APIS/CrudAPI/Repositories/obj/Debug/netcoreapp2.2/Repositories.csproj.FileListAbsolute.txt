@@ -1,0 +1,13 @@
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\bin\Debug\netcoreapp2.2\Repositories.deps.json
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\bin\Debug\netcoreapp2.2\Repositories.runtimeconfig.json
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\bin\Debug\netcoreapp2.2\Repositories.runtimeconfig.dev.json
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\bin\Debug\netcoreapp2.2\Repositories.dll
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\bin\Debug\netcoreapp2.2\Repositories.pdb
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\bin\Debug\netcoreapp2.2\CrudLib.dll
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\bin\Debug\netcoreapp2.2\CrudLib.pdb
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\obj\Debug\netcoreapp2.2\Repositories.csprojAssemblyReference.cache
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\obj\Debug\netcoreapp2.2\Repositories.AssemblyInfoInputs.cache
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\obj\Debug\netcoreapp2.2\Repositories.AssemblyInfo.cs
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\obj\Debug\netcoreapp2.2\Repositories.csproj.CopyComplete
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\obj\Debug\netcoreapp2.2\Repositories.dll
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\Repositories\obj\Debug\netcoreapp2.2\Repositories.pdb

@@ -1,0 +1,9 @@
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\CrudLib\bin\Debug\netcoreapp2.2\CrudLib.deps.json
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\CrudLib\bin\Debug\netcoreapp2.2\CrudLib.runtimeconfig.json
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\CrudLib\bin\Debug\netcoreapp2.2\CrudLib.runtimeconfig.dev.json
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\CrudLib\bin\Debug\netcoreapp2.2\CrudLib.dll
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\CrudLib\bin\Debug\netcoreapp2.2\CrudLib.pdb
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\CrudLib\obj\Debug\netcoreapp2.2\CrudLib.AssemblyInfoInputs.cache
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\CrudLib\obj\Debug\netcoreapp2.2\CrudLib.AssemblyInfo.cs
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\CrudLib\obj\Debug\netcoreapp2.2\CrudLib.dll
+C:\Users\ahmad\Documents\LongLight\APIS\CrudAPI\CrudLib\obj\Debug\netcoreapp2.2\CrudLib.pdb

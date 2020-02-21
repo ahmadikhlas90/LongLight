@@ -1,6 +1,5 @@
 ﻿using CrudLib.Entites;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Web.Services3.Diagnostics;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,6 +17,6 @@ namespace CrudLib.DataConnection
             base.OnModelCreating(modelBuilder);
         }
         public DbSet<Product> Products { get; set; }
-        public DbSet<EventLog> EventLogs { get; set; }
+      
     }
 }
