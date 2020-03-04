@@ -1,0 +1,13 @@
+    public async Task<IActionResult> ListofLawyer()
+        {
+            var user = await GetCurrentUserAsync();
+            var clientList = (from us in context.users
+                              .Include(x => x.ApplicationUsers)
+                              where us.FirmLawyerId == user.Id
+                              select us).ToList();
+            ViewBag.Listoflawyers = clientList;
+            return View();
+        }
+
+
+
